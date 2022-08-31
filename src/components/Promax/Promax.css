@@ -1,0 +1,10 @@
+.promax img{
+    border-radius: 60px;
+    height: 100px;
+    width: 100px;
+    object-fit:  cover;
+ }
+ .promax h3{
+     font-size: bold;
+     text-align: center;
+ }

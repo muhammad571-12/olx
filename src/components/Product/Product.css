@@ -1,0 +1,11 @@
+.product{
+    padding: 10px 100px;
+}
+.product h1{
+    text-align: center;
+}
+.map{
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    grid-gap: 30px;
+}

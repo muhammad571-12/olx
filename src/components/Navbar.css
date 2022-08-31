@@ -1,0 +1,92 @@
+
+.navbar {
+    height: 70px;
+    width: 86%;
+    background-color: #002F34;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+
+.navbar img {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.nav a:nth-child(1) {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav button {
+    height: 45px;
+    width: 190px;
+    border-radius: 6px;
+    color: #002F34;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+    background: #fff;
+}
+
+.quti {
+    height: 550px;
+    background-color: #CBF7EE;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quti img {
+    height: 185px;
+    width: 180px;
+    color: #002F34;
+    cursor: pointer;
+}
+
+.quti p {
+    font-size: 14px;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    padding: 50px 100px;
+    background-color: #Eeeeee;
+}
+.footer a{
+text-decoration: none;
+display: grid;
+color: #002F34;
+font-weight: bold;
+}
+.footer1 a{
+text-decoration: none;
+display: grid;
+color: #002F34;
+font-weight: bold;
+}
+.foter_logo img{
+    height: 60px;
+    width: 170px;
+}
+.foter_logo p{
+    color: rgb(181, 181, 181);
+    font-size: 14px;
+}
